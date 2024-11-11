@@ -13,7 +13,7 @@ export default function ItemEstoque({product, onIncrease, onDecrease}) {
     }
 
     return (
-        <li className={styles.produtoItem}>
+        <li className={product.amount > 1 ? styles.estoqueNormal : styles.estoqueBaixo}>
             <p className={styles.nomeProduto}>{product.name}</p>
             <p className={styles.quantidadeProduto}>{product.amount}</p>
             <p className={styles.valorProduto}>R${product.price}</p>

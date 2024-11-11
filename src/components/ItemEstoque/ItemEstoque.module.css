@@ -63,11 +63,27 @@
 }
 
 .estoqueBaixo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  transition: background-color 0.3s;
+  width: 100%;
   background-color: #ffe6e6;
   color: #b30000;
 }
 
 .estoqueNormal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  transition: background-color 0.3s;
+  width: 100%;
   background-color: #e6f7e6;
   color: #006600;
 }
